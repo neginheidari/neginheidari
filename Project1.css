@@ -1,0 +1,465 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+nav{
+    
+    max-width: 100%;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(60, 81, 107);
+    text-align: center;
+}
+nav:hover{
+    background-color: rgb(114, 137, 156);
+}
+nav ul{
+    list-style: none;
+  
+}
+nav ul li{
+    text-align: center;
+    display: inline-block;
+    padding-top: 18px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 20px;
+  
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: rgb(229, 239, 240);
+    padding: -10px;
+    background-color: rgb(60, 81, 107) ;
+}
+
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+    height: 60px;
+    text-align: left;
+    margin-top: 10px;
+}
+.main{
+    background-image: url(./bg.jpeg);
+    z-index: -1;
+    opacity: 0.9;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.main h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-shadow: 2px 3px slategrey;
+    animation: apply 2s 0.1s infinite;
+    cursor: pointer;
+    
+}
+@keyframes apply{
+0%{
+    color: aliceblue;
+}
+10%{
+    color: rgb(220, 229, 236);
+}
+
+
+30%{
+    color: rgb(145, 192, 233);
+}
+
+
+50%{
+    color: rgb(68, 95, 119);
+}
+
+
+70%{
+    color: rgb(46, 71, 94);
+}
+
+
+90%{
+    color: rgb(40, 57, 71);
+}
+
+
+100%{
+    color: rgb(25, 36, 46);
+}
+
+
+}
+.main h1:hover{
+    color: rgb(11, 16, 65);
+    text-shadow: 2px 3px rgb(223, 228, 233);
+   
+}
+.p1{
+    width: 40%;
+    height: 100%;
+    margin-left: 20px;
+    color: azure;
+    margin-top: 10px;
+    font-size: 17px;
+
+}
+.p1:hover{
+    color: rgb(89, 97, 105);
+    text-shadow: 1px 1px white;
+    font-weight: bolder;
+    
+}
+.p2{
+
+    height: 340px;
+    width: 510px;
+    margin-left: 150px;
+    color: rgb(34, 36, 48);
+    text-shadow: 1px 1px white;
+    margin-top: -590px;
+    font-size: 17px;
+    text-align: left;
+    font-weight: bolder;
+    margin-right: 100px;
+    position: absolute;
+    animation: p2 8s 0.1s infinite;
+    background-color: rgb(213, 213, 233);
+    
+}
+@keyframes p2{
+    0%{
+        color: rgb(7, 29, 48);
+        margin-left: 30px;
+
+    }
+    10%{
+        color: rgb(33, 44, 53);
+        margin-left: 50px;
+        
+    }
+    
+    
+    30%{
+        color: rgb(26, 26, 27);
+        margin-left: 70px;
+    }
+    
+    
+    50%{
+        color: rgb(43, 65, 87);
+        margin-left: 100px;
+    }
+    
+    
+    70%{
+        color: rgb(38, 50, 59);
+        margin-left: 120px;
+    }
+    
+    
+    90%{
+        color: rgb(10, 34, 53);
+        margin-left: 130px;
+    }
+    
+    
+    100%{
+        color: rgb(31, 44, 56);
+        margin-left: 150px;
+    }
+}
+.h1{
+    text-align: center;
+    margin-top: 1020px;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    text-shadow: 2px 3px slategrey;
+    animation: h1 2s 0.1s infinite;
+    cursor: pointer;
+}
+
+@keyframes h1{
+    0%{
+        color: aliceblue;
+    }
+    10%{
+        color: rgb(220, 229, 236);
+    }
+    
+    
+    30%{
+        color: rgb(145, 192, 233);
+    }
+    
+    
+    50%{
+        color: rgb(68, 95, 119);
+    }
+    
+    
+    70%{
+        color: rgb(46, 71, 94);
+    }
+    
+    
+    90%{
+        color: rgb(40, 57, 71);
+    }
+    
+    
+    100%{
+        color: rgb(25, 36, 46);
+    }
+    
+    
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        width: 100%;
+        height: 50%;
+        cursor: pointer;
+       
+      
+    
+    }
+    .container img{
+        padding: 15px;
+        position: relative;
+        width: 80%;
+        height: 50%;
+        overflow: hidden;
+        object-fit: contain;
+        object-position: center;
+       
+    
+    }
+    
+    .bg2{
+        background-image: url(./bg2.jpeg.crdownload);
+        width: 100%;
+        height: 500px;
+        cursor: pointer;
+    }
+    .bg2:hover{
+        opacity: 0.9;
+    }
+    .h{
+        text-align: center;
+        margin-top: 50px;
+        color: aliceblue;
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: uppercase;
+        text-shadow: 2px 3px slategrey;
+        animation: h1 2s 0.1s infinite;
+        cursor: pointer;
+    }
+    
+    @keyframes h{
+        0%{
+            color: aliceblue;
+        }
+        10%{
+            color: rgb(220, 229, 236);
+        }
+        
+        
+        30%{
+            color: rgb(145, 192, 233);
+        }
+        
+        
+        50%{
+            color: rgb(68, 95, 119);
+        }
+        
+        
+        70%{
+            color: rgb(46, 71, 94);
+        }
+        
+        
+        90%{
+            color: rgb(40, 57, 71);
+        }
+        
+        
+        100%{
+            color: rgb(25, 36, 46);
+        }
+        
+    }    
+    .contactpic{
+        width: 300px;
+        width: 400px;
+        margin-left: 10px;
+    }
+    .contactpic:hover{
+        opacity: 0.9;
+    }
+    .contact{
+        text-align: left;
+        margin-top: -300px;
+        margin-left: 500px;
+        font-size: larger;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        padding: 10px;
+    }
+    .contact:hover{
+        color: rgb(54, 54, 54);
+        text-shadow: 2px 2px rgb(179, 201, 214);
+    }
+
+    .p2{
+
+        height: 340px;
+        width: 510px;
+        margin-left: 150px;
+        color: rgb(34, 36, 48);
+        text-shadow: 1px 1px white;
+        margin-top: -590px;
+        font-size: 17px;
+        text-align: left;
+        font-weight: bolder;
+        margin-right: 100px;
+        position: absolute;
+        animation: p2 8s 0.1s infinite;
+        background-color: rgb(213, 213, 233);
+        
+    }
+    @keyframes p2{
+        0%{
+            color: rgb(7, 29, 48);
+            margin-left: 30px;
+    
+        }
+        10%{
+            color: rgb(33, 44, 53);
+            margin-left: 50px;
+            
+        }
+        
+        
+        30%{
+            color: rgb(26, 26, 27);
+            margin-left: 70px;
+        }
+        
+        
+        50%{
+            color: rgb(43, 65, 87);
+            margin-left: 100px;
+        }
+        
+        
+        70%{
+            color: rgb(38, 50, 59);
+            margin-left: 120px;
+        }
+        
+        
+        90%{
+            color: rgb(10, 34, 53);
+            margin-left: 130px;
+        }
+        
+        
+        100%{
+            color: rgb(31, 44, 56);
+            margin-left: 150px;
+        }
+    }
+    .info{
+        text-align: center;
+        margin-top: 220px;
+        color: aliceblue;
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: uppercase;
+        text-shadow: 2px 3px slategrey;
+        animation: info 2s 0.1s infinite;
+        cursor: pointer;
+    }
+    
+    @keyframes info{
+        0%{
+            color: aliceblue;
+        }
+        10%{
+            color: rgb(220, 229, 236);
+        }
+        
+        
+        30%{
+            color: rgb(145, 192, 233);
+        }
+        
+        
+        50%{
+            color: rgb(121, 157, 189);
+        }
+        
+        
+        70%{
+            color: rgb(161, 202, 240);
+        }
+        
+        
+        90%{
+            color: rgb(145, 176, 201);
+        }
+        
+        
+        100%{
+            color: rgb(200, 209, 218);
+        }
+        
+        
+        }
+        .last{
+            background-color: rgb(60, 81, 107);
+        }
+      
+        .form {
+            display: flex;
+            justify-content: center ;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 100px;
+   
+            height: 100%; 
+            margin-bottom: 30px;
+        
+        }
+        .form input{
+            padding: auto;
+            margin: 10px;
+            width: 250px;
+            height: 50px;
+            border: 2px solid rgb(163, 162, 172);
+            border-radius: 5px;
+        
+        }
+        .form input:hover{
+            background-color: rgb(182, 180, 190);
+        }
+        
