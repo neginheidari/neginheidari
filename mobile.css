@@ -1,0 +1,52 @@
+nav {
+  float: none;
+  text-align: center;
+  color: azure;
+}
+nav ul {
+  float: none;
+  text-align: center;
+  font-size: smaller;
+}
+
+body{
+    color: wheat;
+}
+
+nav ul li a{
+  color: black;
+  font-size: 15px;
+} 
+ul li ul li{
+  display: none;
+}
+ul li:hover ul li{
+  display: block;
+}
+
+nav ul li{
+  display: inline-block;
+  justify-content: center;
+  width: 100px;
+}
+.p1{
+  text-align: center;
+  width: 100%;
+  margin-left: -10px;
+}
+.p2{
+  animation: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 5%;
+}
+.contact{
+  text-align: left;
+  margin-top: 70px;
+  margin-left: 10px;
+ position: absolute;
+}
+.contactpic{
+  margin-left: 140px;
+}
